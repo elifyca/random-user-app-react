@@ -17,7 +17,7 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         setUser(data.results);
-        console.log(data.results);
+        // console.log(data.results);
       });
   };
 
